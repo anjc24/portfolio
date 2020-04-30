@@ -1,0 +1,46 @@
+.head{
+  margin-left: 2.5em;
+  margin-right: 2.5rem;
+  margin-top: 2.5em;
+
+}
+.carousel{
+  margin-top: 10px;
+}
+body{
+  /* background-color: black; */
+  margin: auto;
+  background-image: url("images/about.jpg");
+  background-color: rgba(0,0,0,0.9);
+  background-blend-mode: multiply;
+}
+
+.head h1{
+  color: white;
+}
+
+.head p{
+  color: grey;
+}
+@media only screen and (max-width: 400px) {
+           body {
+               background-image: url("images/abouts.jpg");
+               background-color: rgba(0,0,0,0.9);
+               background-blend-mode: multiply;
+           }
+       }
+.card-deck{
+  margin-top: 30px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.card{
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: multiply;
+  margin: 20px;
+}
+.card-header{
+  color: white;
+}
